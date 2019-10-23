@@ -17,6 +17,8 @@ numbers can be encoded in the range like this
 
 
 mutually exclusive  互相排斥
-/ˈmjuːtʃuəli/ 
+/ˈmjuːtʃuəli/
 
 This is not tetris 这一是俄罗斯方块
+
+

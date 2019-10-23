@@ -1,0 +1,63 @@
+{   
+    "editor.rulers": [80,120],
+    "vim.camelCaseMotion.enable": true,
+    "vim.easymotion": true,
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+    {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+    }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+    {
+        "before": ["<leader>", "d"],
+        "after": ["d", "d"]
+    },
+    {
+        "before": ["<C-n>"],
+        "commands": [":nohl"]
+    },
+    {
+        // vim  w保存文件后自动调用vscode中的去除空格的方法
+        "before" : [":w"],
+        "commands" : ["editor.action.trimtrailingWhitespace"]
+    }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+    },
+
+    //自动换行
+    "editor.wordWrap": "on",
+    "files.associations": {
+        "*.tcc": "cpp",
+        "cctype": "cpp",
+        "clocale": "cpp",
+        "cmath": "cpp",
+        "cstddef": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "cstring": "cpp",
+        "ctime": "cpp",
+        "cwchar": "cpp",
+        "cwctype": "cpp",
+        "exception": "cpp",
+        "iosfwd": "cpp",
+        "iostream": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "memory": "cpp",
+        "new": "cpp",
+        "ostream": "cpp",
+        "streambuf": "cpp",
+        "typeinfo": "cpp"
+    }
+
+}
