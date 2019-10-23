@@ -8,7 +8,7 @@
    :maxdepth: 4
    :caption: 目录:
 
-   test.rst
+   chapter/word.rst
 
 
 
